@@ -1,8 +1,8 @@
 ---
-layout: digital-book-shelf
+layout: book-shelf
 title: bookshelf
 permalink: /books/
-nav: false
+nav: true
 collection: books
 ---
 
