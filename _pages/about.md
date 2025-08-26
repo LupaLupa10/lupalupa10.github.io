@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Statistics. Machine Learning.
+subtitle: Statistics. Machine Learning. Market Research. Quantitative.
 
 profile:
   align: right
@@ -27,4 +27,4 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I use this space to share my thoughts, learn from tutorials, and explore new ideas. My goal is to create something original while leveraging LLMs to speed up coding and experimentation.
+I use this space to share my thoughts, learn through tutorials, and explore new ideas. My main goal is to create and release meaningful apps, open-source projects, and creative tools that showcase my ideas—while also developing deep expertise along the way.
