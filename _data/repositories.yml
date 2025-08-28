@@ -4,8 +4,10 @@ github_users:
 repo_description_lines_max: 2
 
 github_repos:
-  - LupaLupa10/financial-data
-  - LupaLupa10/algorithmic-trading
-  - LupaLupa10/ncua-call-report
-  - LupaLupa10/freddie-mac
-  - LupaLupa10/macro
+  - alshedivat/al-folio
+  - jekyll/jekyll
+  - twbs/bootstrap
+  - jquery/jquery
+  - FortAwesome/Font-Awesome
+  - mathjax/MathJax
+  - jpswalsh/academicons
