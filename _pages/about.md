@@ -5,7 +5,7 @@ permalink: /
 subtitle: Statistics. Machine Learning. Market Research. Quantitative.
 
 profile:
-  align: left
+  align: right
   image: earthworm.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
@@ -29,10 +29,7 @@ latest_posts:
 
 ## About Me
 
-I came across the **al-folio** open-source repo, and thanks to it I was able to fork and set up this GitHub page.  
-My goal here is simple: **learn new things, document the process, and share along the way.**
-
-I’m not a “true” statistician, data scientist, data engineer, or software engineer—just a curious generalist who enjoys picking up bits of everything. A jack of all trades, master of none. That said, I have ambitious goals: to keep growing, explore new ideas, and hopefully one day build something meaningful from the knowledge I’ve gathered.
+My goal here is simple: **learn new things, document the process, and share along the way.** I’m not a “true” statistician, data scientist, data engineer, or software engineer—just a curious generalist who enjoys picking up bits of everything. A jack of all trades, master of none. That said, I have ambitious goals: to keep growing, explore new ideas, and hopefully one day build something meaningful from the knowledge I’ve gathered.
 
 ---
 
