@@ -29,7 +29,7 @@ latest_posts:
 
 ## About Me
 
-My goal here is simple: **learn new things, document the process, and share along the way.** I’m not a “true” statistician, data scientist, data engineer, or software engineer—just a curious generalist who enjoys picking up bits of everything. A jack of all trades, master of none. That said, I have ambitious goals: to keep growing, explore new ideas, and hopefully one day build something meaningful from the knowledge I’ve gathered.
+My goal is simple: to keep learning, document the journey, and share what I discover along the way. I’m a curious generalist who loves exploring different fields—a jack of all trades, master of none. Still, I carry big ambitions: to continue growing, dive into new ideas, and eventually build something meaningful out of the knowledge I gather.
 
 ---
 
