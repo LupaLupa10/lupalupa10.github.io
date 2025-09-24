@@ -432,7 +432,7 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-ncua-call-report",
           title: 'NCUA Call Report',
-          description: "Data exploration and analysis of U.S. credit union call reports",
+          description: "Exploring and analyzing U.S. credit union call report data",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-project-2",
