@@ -9,7 +9,7 @@ nav_order: 4
 
 {% if site.data.repositories.github_users %}
 
-## GitHub users
+## GitHub Users
 
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
   {% for user in site.data.repositories.github_users %}
@@ -42,6 +42,19 @@ nav_order: 4
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
   {% for repo in site.data.repositories.github_repos %}
     {% include repository/repo.liquid repository=repo %}
+  {% endfor %}
+</div>
+{% endif %}
+
+
+{% if site.repo_snake.enabled %}
+---
+
+## Contributions
+
+<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+  {% for user in site.data.repositories.github_users %}
+    {% include repository/repo_snake.liquid username=user %}
   {% endfor %}
 </div>
 {% endif %}
