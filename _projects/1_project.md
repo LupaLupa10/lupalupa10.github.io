@@ -1,11 +1,11 @@
 ---
 layout: page
 title: NCUA Call Report 
-description: Exploring and analyzing U.S. credit union call report data
+description: 
 img: assets/img/12.jpg
 importance: 1
 category: work
-related_publications: [ncuaCallReport]
+related_publications: true
 ---
 
 The **NCUA Call Report** project is a data exploration and analysis toolkit for U.S. credit union call report data published by the [National Credit Union Administration](https://ncua.gov/).
@@ -32,3 +32,5 @@ In short, this project is about bridging regulatory reporting with modern data a
 - Designed to support **research, compliance, and financial risk analysis**.  
 
 ---
+
+ {% cite ncuaCallReport %}
