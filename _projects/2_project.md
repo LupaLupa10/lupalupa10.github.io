@@ -12,5 +12,3 @@ Working with Freddie Mac’s Single-Family Loan-Level dataset started as an expe
 
 I built a Python pipeline that automates downloading, cleaning, and merging the origination and performance files, then generates a lightweight HTML report with trends like FICO distributions, delinquency rates, and prepayment behavior. Along the way I leaned heavily on reproducibility — Poetry for environments, YAML configs for runs, and Jinja2 for templating — so anyone can replicate or extend the workflow. For me, this project is as much about **democratizing access to housing finance data** as it is about coding, and it’s already opened the door to deeper analysis like Bayesian modeling of loan defaults, which I’ll continue to explore.
 
-
- {% cite freddiemac_dataset %}
