@@ -5,7 +5,7 @@ description: A Python toolchain to download, clean, and analyze Freddie Mac Sing
 img: assets/img/3.jpg
 importance: 2
 category: work
-giscus_comments: true
+related_publications: true
 ---
 
 Working with Freddie Mac’s Single-Family Loan-Level dataset started as an experiment to make a dense, institutional resource more accessible to independent researchers and hobbyists. The data, which spans millions of mortgages over decades, is publicly available but fragmented across quarterly ZIP archives that are tedious to manage. 
