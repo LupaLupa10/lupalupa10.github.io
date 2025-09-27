@@ -1,7 +1,7 @@
 ---
 layout: page
 title: NCUA Call Report 
-description: 
+description: Toolkit for analyzing NCUA credit union call reports with cleaning, dashboards, and predictive modeling.
 img: assets/img/12.jpg
 importance: 1
 category: work
@@ -11,7 +11,7 @@ related_publications: true
 
 The **NCUA Call Report** project is a data exploration and analysis toolkit for U.S. credit union call report data published by the [National Credit Union Administration](https://ncua.gov/).
 
-The **National Credit Union Administration (NCUA)** is an independent federal agency responsible for regulating and supervising federal credit unions across the United States. Its mission is to protect credit union members, ensure the safety and soundness of the credit union system, and maintain public confidence in these financial institutions.  
+The **National Credit Union Administration (NCUA)** {% cite ncuaCallReport %} is an independent federal agency responsible for regulating and supervising federal credit unions across the United States. Its mission is to protect credit union members, ensure the safety and soundness of the credit union system, and maintain public confidence in these financial institutions.  
 
 To support this mission, the NCUA requires all federally insured credit unions to submit detailed **quarterly call reports**. These reports provide a comprehensive look into the financial and operational condition of each institution. They include balance sheet data, income and expense statements, loan portfolios, membership growth, delinquency rates, and key performance ratios. By making this information publicly available, the NCUA enhances transparency, strengthens regulatory oversight, and gives researchers and practitioners the ability to analyze trends across the credit union industry.  
 
@@ -33,3 +33,4 @@ In short, this project is about bridging regulatory reporting with modern data a
 - Designed to support **research, compliance, and financial risk analysis**.  
 
 ---
+
