@@ -32,7 +32,7 @@ ninja.data = [{
           },
         },{id: "nav-repositories",
           title: "repositories",
-          description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/repositories/";
@@ -55,7 +55,7 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-ncua-call-report",
           title: 'NCUA Call Report',
-          description: "",
+          description: "Toolkit for analyzing NCUA credit union call reports with cleaning, dashboards, and predictive modeling.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-freddie-mac",
@@ -63,11 +63,6 @@ ninja.data = [{
           description: "A Python toolchain to download, clean, and analyze Freddie Mac Single-Family Loan-Level data, with an auto-generated HTML report and (WIP) Bayesian modeling.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
             },},{
       id: 'light-theme',
       title: 'Change theme to light',
