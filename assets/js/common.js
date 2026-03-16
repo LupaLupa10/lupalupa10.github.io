@@ -7,10 +7,7 @@ $(document).ready(function () {
       const container = $(this).parent().parent();
 
       publicationSections.forEach((otherSectionName) => {
-        const selector =
-          otherSectionName === sectionName
-            ? `.${otherSectionName}.hidden`
-            : `.${otherSectionName}.hidden.open`;
+        const selector = otherSectionName === sectionName ? `.${otherSectionName}.hidden` : `.${otherSectionName}.hidden.open`;
         container.find(selector).toggleClass("open");
       });
     });

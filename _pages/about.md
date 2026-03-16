@@ -35,6 +35,6 @@ My goal is simple: to keep learning, document the journey, and share what I disc
 
 ### Interests
 
-- **SaaS** – aim to build a product that people actually find useful  
-- **Game development** – dream of creating a fun JRPG I’d love to play myself  
-- **Algorithmic trading (quant)** – design profitable trading strategies and one day trade with my own capital  
+- **SaaS** – aim to build a product that people actually find useful
+- **Game development** – dream of creating a fun JRPG I’d love to play myself
+- **Algorithmic trading (quant)** – design profitable trading strategies and one day trade with my own capital

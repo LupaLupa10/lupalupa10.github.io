@@ -16,5 +16,4 @@ goodreads_review: 11468377
 status: Pending
 ---
 
-
-I started reading Thinking, Fast and Slow and got through the first couple of chapters, which introduce the two modes of thinking. 
+I started reading Thinking, Fast and Slow and got through the first couple of chapters, which introduce the two modes of thinking.
