@@ -190,6 +190,7 @@ exclude:
   - purgecss.config.js
   - README.md
   - readme_preview/
+  - _posts/
   - vendor
 keep_files:
   - CNAME
@@ -221,6 +222,11 @@ defaults:
       path: "assets"
     values:
       sitemap: false
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      published: false
 
 sass:
   style: compressed
@@ -255,7 +261,7 @@ jekyll-archives:
   books:
     enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
 
-display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
+display_tags: ["fed", "quantitative", "code", "ai"] # these tags will be displayed on the front page of your blog
 display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------

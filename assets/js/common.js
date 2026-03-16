@@ -1,19 +1,19 @@
 $(document).ready(function () {
+  const publicationSections = ["abstract", "award", "bibtex"];
+
   // add toggle functionality to abstract, award and bibtex buttons
-  $("a.abstract").click(function () {
-    $(this).parent().parent().find(".abstract.hidden").toggleClass("open");
-    $(this).parent().parent().find(".award.hidden.open").toggleClass("open");
-    $(this).parent().parent().find(".bibtex.hidden.open").toggleClass("open");
-  });
-  $("a.award").click(function () {
-    $(this).parent().parent().find(".abstract.hidden.open").toggleClass("open");
-    $(this).parent().parent().find(".award.hidden").toggleClass("open");
-    $(this).parent().parent().find(".bibtex.hidden.open").toggleClass("open");
-  });
-  $("a.bibtex").click(function () {
-    $(this).parent().parent().find(".abstract.hidden.open").toggleClass("open");
-    $(this).parent().parent().find(".award.hidden.open").toggleClass("open");
-    $(this).parent().parent().find(".bibtex.hidden").toggleClass("open");
+  publicationSections.forEach((sectionName) => {
+    $(`a.${sectionName}`).click(function () {
+      const container = $(this).parent().parent();
+
+      publicationSections.forEach((otherSectionName) => {
+        const selector =
+          otherSectionName === sectionName
+            ? `.${otherSectionName}.hidden`
+            : `.${otherSectionName}.hidden.open`;
+        container.find(selector).toggleClass("open");
+      });
+    });
   });
   $("a").removeClass("waves-effect waves-light");
 
@@ -32,17 +32,17 @@ $(document).ready(function () {
   }
 
   // add css to jupyter notebooks
-  const cssLink = document.createElement("link");
-  cssLink.href = "../css/jupyter.css";
-  cssLink.rel = "stylesheet";
-  cssLink.type = "text/css";
-
-  let jupyterTheme = determineComputedTheme();
+  const jupyterTheme = determineComputedTheme();
 
   $(".jupyter-notebook-iframe-container iframe").each(function () {
-    $(this).contents().find("head").append(cssLink);
+    const iframeHead = $(this).contents().find("head");
+    const cssLink = document.createElement("link");
+    cssLink.href = "../css/jupyter.css";
+    cssLink.rel = "stylesheet";
+    cssLink.type = "text/css";
+    iframeHead.append(cssLink);
 
-    if (jupyterTheme == "dark") {
+    if (jupyterTheme === "dark") {
       $(this).bind("load", function () {
         $(this).contents().find("body").attr({
           "data-jp-theme-light": "false",
