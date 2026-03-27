@@ -12,8 +12,6 @@ published: true
 
 This notebook shows an agentic approach to preprocessing a probability of default dataset. It walks through how an AI-style workflow can inspect the data, choose preprocessing actions, and apply them in a structured way instead of relying on a fixed manual pipeline.
 
-The embedded notebook below is added using the same Jupyter blog-post pattern as the Fed dot plot post.
-
 {::nomarkdown}
 {% assign jupyter_path = "assets/jupyter/agentic_preprocessing_pd.ipynb" | relative_url %}
 {% capture notebook_exists %}{% file_exists assets/jupyter/agentic_preprocessing_pd.ipynb %}{% endcapture %}
