@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Algorithmic Trading Research
+title: Polymarket Simple Tutorial
 date: 2026-06-18 10:00:00-0600
 description: notebook for market discovery, order book analysis, and trading research APIs
 tags: jupyter notebook code quantitative
